@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS</title>
+    <!-- Internal CSS -->
+    <style>
+        p {
+            /* color: gold; */
+            font-size: 40px;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="list.css">
+
+</head>
+
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color: red;">Mudar cor com Inline</h1>
+    <h1 style="color: blue;">Outro titulo</h1>
+
+    <!-- Múltiplas rgras -->
+    <h1 style="color: purple; font-size: 40px; border-bottom:1px solid red;">Mudar cor e tamanho da fonte</h1>
+
+    <!-- Internal CSS -->
+    <p>Eu fui estilizado pelo Internal</p>
+
+    <!-- External CSS -->
+    <h3>Meu titulo verde</h3>
+
+    <!-- Ordem do CSS -->
+    <p style="color: red;">Ordem do CSS</p>
+
+    <!-- Multiplos CSS -->
+
+    <ul>
+        <li>Banana</li>
+        <li>Maçã</li>
+        <li>Abacate</li>
+    </ul>
+
+    <!-- Classes -->
+    <p class="paragrafo"> algum texto</p>
+    <p class="paragrafo"> algum texto2</p>
+    <p class="paragrafo"> algum texto3</p>
+
+    <!-- IDs -->
+    <h1 id="titulo-exclusivo"> este é um titulo exclusivo com id</h1>
+
+    <!-- Ordem dos seletores -->
+    <h2 id="algum-titulo" class="titulo"> Algum texto</h2>
+    <h2 id="algum-titulo" class="titulo"> Algum texto 2 </h2>
+    <h2 id="algum-titulo" class="titulo"> Algum texto 3</h2>
+
+    <!-- Nome das cores do CSS -->
+    <p class="color-name">Qualquer texto para nome de cores</p>
+
+    <!-- HEX, Hexadecimal -->
+    <p class="hex">paragrafo com hex</p>
+    <p class="hex2">paragrafo com outra hex</p>
+
+    <!-- Mais sobre o Hex -->
+    <p class="simple-hex">Hex simplificado</p>
+    <p class="simple-hex">Hex simplificado 2</p>
+
+    <!-- RGB -->
+    <p class="rgb">Este foi estilizado com RGB</p>
+
+    <p class="mixed-rgb">Este foi estilizado com RGB</p>
+
+    <!-- RGBa -->
+    <p class="rgba">Algum texto aleatorio feito com RGBA</p>
+
+    <!-- HSL -->
+    <p class="hsl">Algum texto aleatorio feito com HSL</p>
+
+    <p class="hsl-2">Algum texto aleatorio feito com HSL</p>
+
+    <!-- Background-color -->
+    <p class="bg">Mude meu background</p>
+    <p class="bg-2">Mude meu background 2</p>
+
+    <!-- Background opacidade -->
+    <div class="bg-opacidade">
+        <p>Estou aqui</p>
+    </div>
+
+    <div class="bg-opacidade2">
+        <p>Estou aqui! Quase visivel</p>
+    </div>
+
+    <!-- RGBA com opacidade -->
+    <div class="rgba-opacidade">
+        <h1>Este titulo estar visivel</h1>
+    </div>
+
+    <!-- Background imagem -->
+    <h1 class="bg-imagem">Este titulo tem uma imagem</h1>
+
+    <!-- Centralizar imagem de background-->
+    <div class="bg-nao-centralizada"></div>
+    <div class="bg-centralizada"></div>
+
+    <!-- Largura e altura -->
+    <div class="largura-altura"></div>
+    <div class="largura-altura2"></div>
+
+    <!-- Padding -->
+    <div class="sem-padding">Este não tem pedding</div>
+    <div class="padding">Este tem padding</div>
+
+    <!-- Padding Lados individuais-->
+    <p class="padding-individual">Este elemento tem paddings diferentes</p>
+
+    <!-- Shorthand padding properties-->
+    <p class="shorthand-padding">Algum texto</p>
+    <p class="shorthand-padding-2">Algum texto 2</p>
+
+    <!-- Padding e With(largura)-->
+    <div class="sem-border-box">
+        <p>Algum conteudo</p>
+    </div>
+    <div class="border-box">
+        <p>Algum conteudo 2</p>
+    </div>
+
+    <!-- Border -->
+    <div class="borda">Borda</div>
+    <div class="borda-2">Borda 2</div>
+
+    <!-- Borda individual -->
+    <p class="borda-esquerda">Borda na esquerda</p>
+    <p class="borda-bottom">Borda inferior</p>
+
+    <!-- Borda arredondada -->
+    <div class="paragrafo-arredondado">Estou arredondado</div>
+    <div class="paragrafo-arredondado-2">Estou arrendondado</div>
+
+    <!-- Margem -->
+    <div class="margem">Eu tenho margem</div>
+    <div class="margem-top">Eu tenho uma margem no topo</div>
+    <div class="margem-shorthand">Utilizando shorthand</div>
+
+    <!-- Box model -->
+    <div class="box-model">
+        <p>Tenho todas as propriedades do box model</p>
+    </div>
+
+    <!-- Text alignment(alinhamento de texto)-->
+    <p class="alinhar-texto">Alinhar a direita</p>
+    <div class="container-center">
+        <h2>Estamos centralizados</h2>
+        <p>Algum texto</p>
+    </div>
+
+    <!-- Text decoration(decoração de texto)-->
+     <p class="underline">Eu tenho um Underline</p>
+     <p class="line-trough">Eu tenho um risco</p>
+     <a href="#" class="remover-underline">Sem underline</a>
+
+     <!-- Tranformação de texto -->
+      <p class="upper">Este texto é em caixa alta</p>
+      <p class="lower">ESTE É EM LOWER</p>
+
+      <!-- Espaçamento de letras -->
+       <h2 class="spacing">Eu tenho um espaçamento maior</h2>
+
+       <!-- Fontes -->
+        <p class="serif">Serif fonte</p>
+        <p class="sans-serif">Sans Serif fonte</p>
+        <p class="monospace">Monospace fonte</p>
+        <p class="cursive">Cursive fonte</p>
+        <p class="fantasy">Fantasy fonte</p>
+        
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
